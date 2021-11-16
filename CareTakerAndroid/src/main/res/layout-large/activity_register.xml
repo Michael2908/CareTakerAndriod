@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaper"
+    tools:context=".Register">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="1000dp"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/logo"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:id="@+id/fullName"
+        android:layout_width="500dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="390dp"
+        android:textSize="30sp"
+        android:autofillHints="EnterFullName"
+        android:ems="10"
+        android:hint="@string/full_name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="500dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="550dp"
+        android:textSize="30sp"
+        android:autofillHints="EnterPassword"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textVisiblePassword" />
+
+
+    <EditText
+        android:id="@+id/emergencyContact"
+        android:layout_width="500dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="710dp"
+        android:textSize="30sp"
+        android:autofillHints="EnterPhoneNumber"
+        android:ems="10"
+        android:hint="Emergency Contact"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/phoneNumber"
+        android:layout_width="500dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="630dp"
+        android:textSize="30sp"
+        android:autofillHints="EnterPhoneNumber"
+        android:ems="10"
+        android:hint="@string/phone"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="850dp"
+        android:textSize="30sp"
+        android:background="@drawable/background_blue"
+        android:fontFamily="serif"
+        android:textColor="@color/cardview_light_background"
+        android:text="@string/accept" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="500dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="470dp"
+        android:textSize="30sp"
+        android:autofillHints="EnterEmailAddress"
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress" />
+
+ 
+    <TextView
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="220dp"
+        android:text="@string/registration"
+        android:textSize="100sp" />
+
+
+</RelativeLayout>

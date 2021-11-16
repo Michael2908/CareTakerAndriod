@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaper"
+    tools:context=".MainMenu">
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="740dp"
+        android:layout_marginTop="200dp"
+        android:textSize="20sp"
+        android:background="@color/colorAccent"
+        android:onClick="logOut"
+        android:text="LogOut" />
+
+    <Button
+        android:id="@+id/set_emergency_number"
+        android:layout_width="170dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="550dp"
+        android:layout_marginTop="1160dp"
+        android:background="@drawable/background_blue"
+        android:fontFamily="serif"
+        android:textColor="@color/cardview_light_background"
+        android:onClick="setEmergencyContact"
+        android:textSize="20sp"
+        android:text="Set Emergency Contact" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="1dp"
+        app:srcCompat="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/condition"
+        android:layout_width="335dp"
+        android:layout_height="295dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="350dp"
+        app:srcCompat="@drawable/condition" />
+
+    <ImageView
+        android:id="@+id/emergency"
+        android:layout_width="295dp"
+        android:layout_height="340dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="480dp"
+        android:layout_marginTop="700dp"
+        app:srcCompat="@drawable/emergency" />
+
+    <ImageView
+        android:id="@+id/menus"
+        android:layout_width="300dp"
+        android:layout_height="320dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="700dp"
+        app:srcCompat="@drawable/menu" />
+
+    <ImageView
+        android:id="@+id/pills"
+        android:layout_width="270dp"
+        android:layout_height="270dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="500dp"
+        android:layout_marginTop="360dp"
+        app:srcCompat="@drawable/pills" />
+
+    <TextView
+        android:id="@+id/healthCondition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="650dp"
+        android:text="Health Condition"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/PillSchedule"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="530dp"
+        android:layout_marginTop="650dp"
+        android:text="Pill Schedule"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/foodMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="1050dp"
+        android:text="Food Menu"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/emergencyCall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="500dp"
+        android:layout_marginTop="1050dp"
+        android:text="Emergency Call"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/userName"
+        android:layout_width="600dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="250dp"
+        android:text="Welcome Guest"
+        android:textSize="50sp" />
+
+</RelativeLayout>

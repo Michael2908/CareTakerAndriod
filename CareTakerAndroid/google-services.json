@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "643590681627",
+    "firebase_url": "https://careta-fc973.firebaseio.com",
+    "project_id": "careta-fc973",
+    "storage_bucket": "careta-fc973.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:643590681627:android:c567205c34a2e0996b34be",
+        "android_client_info": {
+          "package_name": "com.example.caretaker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "643590681627-apt7m5o1tdac87p53vgvb8vc2rc5dqg0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtSbEnC-rlbusvB_tD-i9mcYFliEh093E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "643590681627-apt7m5o1tdac87p53vgvb8vc2rc5dqg0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

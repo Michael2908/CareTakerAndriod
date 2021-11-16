@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaper"
+    tools:context=".FoodMenu">
+
+    <TextView
+        android:id="@+id/lunch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="450dp"
+        android:textSize="30sp"
+        android:text="Lunch" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="166dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginLeft="-1dp"
+        android:layout_marginTop="-1dp"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/food_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="170dp"
+        android:textStyle="bold"
+        android:text="Food menu"
+        android:textSize="40sp" />
+
+    <ListView
+        android:id="@+id/breakfast_list"
+        android:layout_height="160dp"
+        android:layout_width="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="280dp"/>
+
+    <ListView
+        android:id="@+id/lunch_list"
+        android:layout_height="160dp"
+        android:layout_width="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="490dp">
+
+    </ListView>
+
+    <ListView
+        android:id="@+id/dinner_list"
+        android:layout_height="160dp"
+        android:layout_width="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="710dp" />
+
+    <TextView
+        android:id="@+id/breakfast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="240dp"
+        android:textSize="30sp"
+        android:text="Breakfast" />
+
+    <TextView
+        android:id="@+id/dinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="670dp"
+        android:textSize="30sp"
+        android:text="Dinner" />
+
+    <Button
+        android:id="@+id/dinner_button"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="500dp"
+        android:layout_marginTop="660dp"
+        android:textSize="20sp"
+        android:background="@drawable/background_blue"
+        android:fontFamily="serif"
+        android:textColor="@color/cardview_light_background"
+        android:text="Add Dinner" />
+
+    <Button
+        android:id="@+id/lunch_button"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="500dp"
+        android:layout_marginTop="445dp"
+        android:textSize="20sp"
+        android:background="@drawable/background_blue"
+        android:fontFamily="serif"
+        android:textColor="@color/cardview_light_background"
+        android:text="Add Lunch" />
+
+    <Button
+        android:id="@+id/breakfast_button"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="500dp"
+        android:layout_marginTop="230dp"
+        android:textSize="20sp"
+        android:background="@drawable/background_blue"
+        android:fontFamily="serif"
+        android:textColor="@color/cardview_light_background"
+        android:text="Add Breakfast" />
+
+</RelativeLayout>

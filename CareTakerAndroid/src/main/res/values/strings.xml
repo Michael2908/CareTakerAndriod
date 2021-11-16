@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">CareTaker</string>
+    <string name="enterEmail">Email</string>
+    <string name="enterPassword">Password</string>
+    <string name="registration">Register</string>
+    <string name="accept">Accept</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="password">Password</string>
+    <string name="full_name">Full Name</string>
+    <string name="register_here">Register Here</string>
+    <string name="log_in">Log In</string>
+    <string name="logout">LogOut</string>
+    <string name="health_condition">Health Condition</string>
+    <string name="food_menu">Food Menu</string>
+    <string name="emergency_call">Emergency Call</string>
+    <string name="welcome_guest">Welcome Guest</string>
+    <string name="pill_schedule">Pill Schedule</string>
+    <string name="todo">TODO</string>
+
+</resources>
